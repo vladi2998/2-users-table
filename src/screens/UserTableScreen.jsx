@@ -45,7 +45,7 @@ export default function UserTableScreen() {
           key='image'
           dataKey='image'
           width={width / numColums}
-          cellRenderer={({ cellData }) => <img src={cellData} />}
+          cellRenderer={({ cellData }) => <img alt={cellData} src={cellData} />}
         />
         <Column
           key='moreInfo'
